@@ -1,6 +1,6 @@
 # about
 
-my notes about work with git 
+my notes about work with git
 
 ## configuration
 
