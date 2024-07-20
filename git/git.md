@@ -14,3 +14,12 @@ git config --global user.name ""
 # set user email in global options
 git config --global user.email ""
 ```
+
+## remote repo
+
+```shell
+
+# make clone repo from url to local folder
+git clone https://github.com/edu81zau/petrichenko-ts-react.git
+
+```
