@@ -1,6 +1,6 @@
 # About
 Add information about debagger in Firefox
-## Function key information
+# Function key information
 F8 - Pause of Countionue
 F10 - Continuation without entering a loop
 F11 - Continuation without entering a loop
