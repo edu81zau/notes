@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Style css</title>
+    <link rel="stylesheet" href="base.css"/>
+    <link id="my-style" rel="stylesheet" href=""/>
+</head>
+<body>
+<div id="harder">
+    <div>
+        <a href="https://html5css.ru/cssref/css_selectors.php" target="_blank">CSS Selector Справочник</a>
+    </div>
+    <button onclick="document.getElementById(`my-style`).href=``">Clear</button>
+
+    <button onclick="document.getElementById(`my-style`).href=`nested-elements.css`">nested</button>
+    <button onclick="document.getElementById(`my-style`).href=`attributes.css`">nested</button>
+    <button onclick="document.getElementById(`my-style`).href=`id.css`">id</button>
+    <button onclick="document.getElementById(`my-style`).href=`first-letter.css`">first letter</button>
+    <button onclick="document.getElementById(`my-style`).href=`input-focus.css`">input focus</button>
+</div>
+<div id="demo-html">
+    <div id="demo-html-row1" class="demo-row">
+    <span class="demo-sentence">
+        <span class="demo-world">мама</span>
+        <span class="demo-world">мыла</span>
+        <span class="demo-world">раму</span>
+    </span>
+    </div>
+    <div id="demo-html-row2" class="demo-row" data-mother-name="Tamara">Tamara</div>
+    <div id="demo-html-row3">
+        <label> Name of daughter
+            <input type="text" value="">
+        </label>
+    </div>
+</div>
+</body>
+</html>

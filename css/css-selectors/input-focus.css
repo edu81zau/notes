@@ -1,0 +1,4 @@
+#demo-html-row3 input:focus {
+    background-color: gold;
+    color: green;
+}

@@ -1,0 +1,8 @@
+.demo-sentence span{
+    display: inline-block;
+}
+
+.demo-sentence span:last-child::first-letter{
+    color: gold;
+    font-size: xxx-large;
+}
